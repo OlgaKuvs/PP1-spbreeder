@@ -72,6 +72,82 @@ hr {
     background: url('../images/poodle-silhouette.png')  center;
     height: 50px;
     width: 50px;
+}
+
+/* navigation buttons */
+
+.menu {
+    letter-spacing: 2px;
+    text-transform: uppercase;  
     
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 30px;
+    border: 3px solid #e7d9c7;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+}
+
+#active {
+    color:#db430c;
    
 }
+
+.menu, .logo_breeder, #logo_image  {
+    display: inline-block;
+    vertical-align: text-top;     
+} 
+
+.menu a {
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+}
+
+.menu li:hover {
+    color:#db430c;
+    background-color: #f7f4f4; 
+}
+
+#header_image {  
+        margin: 0 50px 0 50px; 
+        border: 3px solid #e7d9c7;
+        background: url('../images/pexels-skyler-ewing-6544846.jpg') no-repeat  center center;
+        height: 150px;
+        width: 150px;
+        position: relative;
+        top: -35px;
+        border-radius: 50%;  
+        
+
+    
+}
+
+/* main content */
+
+#content {
+   width: 100%;
+}
+
+figure {
+    float: left;
+}
+
+article {
+    margin: 20px;
+    padding: 10px;
+    line-height: 30px;
+    
+}
+
+article ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.text_main {
+    width: 100%;
+    }
