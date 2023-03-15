@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #e6dfd6;
+    color: #201200;
+    height: 100%;
+    }
+
+#main-container {
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid #e9d4ba;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #e7d9c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* headings and logo */
+
+header {
+    display: flex;
+    justify-content: start;
+    height: 150px;
+    margin-top: 20px;  
+    padding-top: 50px;
+    /* border: 3px solid blue;   */
+      
+}
+
+h1, h2, h3 {
+    font-family: RobotoCondensed, sans-serif;
+    text-transform: uppercase;
+    color: #db430c;
+    
+}
+
+hr {
+    border-bottom: 2px solid #e7d9c7;
+    width: 100%;
+    margin: 5px 0;
+
+}
+
+.logo_breeder {
+    font-family: Satisfy, sans-serif;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 3px #f0650d;
+    letter-spacing: 5px;
+}
+
+#logo_text  {
+    font-family: Satisfy, sans-serif; 
+    text-shadow: 1px 1px 3px #f0650d;
+    letter-spacing: 3px; 
+    margin: 0;  
+}
+
+
+#logo_image {
+    margin-left: 10px; 
+    background: url('../images/poodle-silhouette.png')  center;
+    height: 50px;
+    width: 50px;
+    
+   
+}
