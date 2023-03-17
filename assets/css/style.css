@@ -212,6 +212,7 @@ figcaption {
 
 #contacts_image {
     margin: 30px 0 0 30px;
+    width: 467px;
     float: left;
 }
 
@@ -304,6 +305,15 @@ footer {
 
 /* For very large screens from 1400px */
 
+@media screen and (max-width: 1550px) {
+    .menu_nav {
+        margin-top: 20px;
+    }
+}
+
+
+/* For large screens from 1400px */
+
 @media screen and (max-width: 1400px) {
 
 #main-container {
@@ -314,14 +324,16 @@ footer {
     margin-top: 20px;
 }
 
-#contacts_image {
-    float: none;
+#contacts_image_container, .about_us_content {
+    display: flex;
+    justify-content: center;
 }
 
 header {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    align-items: center;
     margin-top: 20px;  
     padding-top: 20px;   
     min-height: 300px;       
@@ -348,103 +360,3 @@ header {
 
 }
 
-/*
-
-@media screen and (max-width: 1200px){
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #right-about, #left-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-*/
-/* For medium screen sizes from 950px wide */
-
-/*
-@media screen and (max-width: 950px){ 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    #photos {
-        column-count: 3;
-    }
-
-}
-*/
-
-/* For small screen sizes from 800px wide */
-
-/*
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
- }
-
- @media screen and (max-width: 800px) {
-    .signup-form {
-        margin-left: 10%;
-    }
- }
-
-*/
