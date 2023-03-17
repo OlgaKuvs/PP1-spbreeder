@@ -38,7 +38,7 @@ header {
     padding-top: 50px;          
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: RobotoCondensed, sans-serif;
     text-transform: uppercase;
     color: #db430c;    
@@ -188,13 +188,18 @@ figure {
 .our_poodles_gallery {
     width: 400px;
     height: 400px;
-    border: 3px solid red;
+    border: 3px solid #e7d9c7;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: cover;    
+    box-shadow: 5px 5px 2px #f7f4f4;
 }
 
 figcaption {
     text-align: center;
+    font-weight: 800;
+    font-size: 120%;
+    color: #2b1800;
+    margin-top: 10px;
 }
 
 /* footer */
