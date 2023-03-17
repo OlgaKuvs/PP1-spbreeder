@@ -82,7 +82,7 @@ hr {
     
 }
 
-.menu li {
+.menu_nav {
     list-style: none;
     margin-right: 30px;
     border: 3px ridge #e7d9c7;
@@ -108,7 +108,7 @@ hr {
     color: inherit;
 }
 
-.menu li:hover {
+.menu_nav:hover {
     color:#db430c;
     background-color: #f7f4f4; 
 }
@@ -152,9 +152,15 @@ figure {
 
 .section_header {
     text-align: center;
+    margin-top: 30px;
+}
+
+
+/* .div_header {
+    text-align: center;
     margin: 30px 0 20px 0;
     
-}
+} */
 
 /* why poodles */
 
@@ -209,7 +215,7 @@ figcaption {
 }
 
 .form_section {
-    height: 900px;
+    height: 800px;
    
 }
 
@@ -228,8 +234,9 @@ figcaption {
     border-radius: 3px;
 }
 
-.text-input:hover {
-    border-color: #db430c; 
+.text-input:hover, .textarea_message:hover {
+    border: 3px ridge #db430c; 
+    background-color: #f7f4f4;
 }
 
 
@@ -247,18 +254,16 @@ figcaption {
     text-align: center;
     font-size: 100%;
     background-color: #db430c;  
+    border: 3px ridge #db430c;  
     color: #fff;
     display: block;
 }
 
 .request-button:hover {
-    font-weight: 600;
     background-color:  #e9d4ba;
-    color:#2b1800;
+    color: #2b1800;
+    border: 3px ridge #db430c;  
 }
-
-
-
 
 
 /* footer */
