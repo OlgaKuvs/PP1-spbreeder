@@ -138,12 +138,12 @@ figure {
     margin: 20px;
     padding: 10px;
     line-height: 30px;
-    
 }
 
 .about_us_content ul {
     list-style-type: none;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .text_main {
@@ -152,7 +152,8 @@ figure {
 
 .section_header {
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0 20px 0;
+    
 }
 
 /* why poodles */
@@ -182,8 +183,18 @@ figure {
     padding: 10px;
 } */
 
-/* gallery */   
+/* our poodles */   
 
+.our_poodles_gallery {
+    width: 400px;
+    height: 400px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
 
 /* footer */
 
