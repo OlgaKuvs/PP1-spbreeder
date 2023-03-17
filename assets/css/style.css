@@ -72,8 +72,6 @@ hr {
     background: url('../images/poodle-silhouette.png')  center;
     height: 50px;
     width: 50px;
-    
-   
 }
 
 /* navigation buttons */
@@ -124,9 +122,6 @@ hr {
         position: relative;
         top: -35px;
         border-radius: 50%;  
-        
-
-    
 }
 
 /* main content */
@@ -155,6 +150,39 @@ figure {
     width: 100%;
     }
 
+.section_header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* why poodles */
+
+.why_poodles {   
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+    }
+
+.why_poodles_sections {
+    box-sizing: border-box;
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.why_poodles_icons {
+    font-size: 250%;
+    color:#db430c;     
+    text-align: center;
+}
+
+/*i {
+    border: 3px solid #e7d9c7;
+    border-radius: 50%;    
+    padding: 10px;
+} */
+
+/* gallery */   
 
 
 /* footer */
