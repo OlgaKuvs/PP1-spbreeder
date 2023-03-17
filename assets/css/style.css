@@ -111,6 +111,7 @@ hr {
 .menu_nav:hover {
     color:#db430c;
     background-color: #f7f4f4; 
+    cursor: pointer; 
 }
 
 #header_image {  
@@ -215,12 +216,11 @@ figcaption {
 }
 
 .form_section {
-    height: 800px;
-   
+    height: 800px;   
 }
 
 .puppy_order_form {
-    max-width: 700px;
+    max-width: 600px;
     padding: 30px;
     float: right;
     border: 3px solid #e7d9c7;;
@@ -237,6 +237,7 @@ figcaption {
 .text-input:hover, .textarea_message:hover {
     border: 3px ridge #db430c; 
     background-color: #f7f4f4;
+    cursor: pointer; 
 }
 
 
@@ -263,6 +264,7 @@ figcaption {
     background-color:  #e9d4ba;
     color: #2b1800;
     border: 3px ridge #db430c;  
+    cursor: pointer; 
 }
 
 
@@ -300,9 +302,9 @@ footer {
 
 /* media queries */
 
-/* For large screens from 1200px */
+/* For very large screens from 1400px */
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1400px) {
 
 #main-container {
     width: 90%;  
@@ -312,5 +314,137 @@ footer {
     margin-top: 20px;
 }
 
+#contacts_image {
+    float: none;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;  
+    padding-top: 20px;   
+    min-height: 300px;       
+}
+
+#header_image {  
+    min-width: 150px;
+    min-height: 150px;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;  
+}
+
+ #footer_info {
+    display: flex;
+    justify-content: center; 
+    margin: 0;   
+    padding-top: 0; 
+} 
+
+#footer_info li {
+    margin: 20px;    
+}
+
+}
+
+/*
+
+@media screen and (max-width: 1200px){
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #right-about, #left-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+*/
+/* For medium screen sizes from 950px wide */
+
+/*
+@media screen and (max-width: 950px){ 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+
+}
+*/
+
+/* For small screen sizes from 800px wide */
+
+/*
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+ }
+
+ @media screen and (max-width: 800px) {
+    .signup-form {
+        margin-left: 10%;
+    }
+ }
+
+*/
