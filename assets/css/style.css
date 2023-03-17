@@ -32,7 +32,7 @@ body {
 
 header {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     height: 150px;
     margin-top: 20px;  
     padding-top: 50px;          
@@ -295,5 +295,22 @@ footer {
     font-size: 150%;
     color:#db430c;
     margin-left: 20px; 
+}
+
+
+/* media queries */
+
+/* For large screens from 1200px */
+
+@media screen and (max-width: 1550px) {
+
+#main-container {
+    width: 90%;  
+}
+
+.menu_nav {
+    margin-top: 20px;
+}
+
 }
 
