@@ -95,7 +95,8 @@ hr {
 
 #active {
     color:#db430c;
-   
+    text-decoration: underline overline #e6dfd6;
+    
 }
 
 .menu, .logo_breeder, #logo_image  {
@@ -138,14 +139,14 @@ figure {
     float: left;
 }
 
-article {
+.about_us_content {
     margin: 20px;
     padding: 10px;
     line-height: 30px;
     
 }
 
-article ul {
+.about_us_content ul {
     list-style-type: none;
     margin-bottom: 20px;
 }
