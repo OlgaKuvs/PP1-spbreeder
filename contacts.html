@@ -20,7 +20,7 @@
             </div>   
             <nav>
                 <ul class="menu"> 
-                    <li id="active">
+                    <li>
                         <a href="index.html">About us</a></li>
                     <li>
                         <a href="why_poodles.html">Why poodles?</a>
@@ -28,7 +28,7 @@
                     <li>
                         <a href="our_dogs.html">Our dogs</a>
                     </li>
-                    <li>
+                    <li id="active">
                         <a href="contacts.html">Contact us</a>
                     </li>
                 </ul>
@@ -38,37 +38,34 @@
         <hr>
         <section id="content">
             <div>
-                <figure>
-                    <img src="assets/images/about_us_image.jpg" alt="Two red stardard poodles">
+                <figure id="contacts_image">
+                    <img src="assets/images/female_and_poodle.png" alt="Female and poodle">
                 </figure>
             </div>
             <div class="text_main">
                 <div class="about_us_content">
-                    <div>
-                        <h2>Welcome on the page of &nbsp;<span class="logo_breeder" id="logo_text"> S.P. Breeder</span> !</h2><br>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>We are breeding red standard poodles sinse 1980s.</li>
-                            <li>Stunning Poodle puppies come from Parents imported European Champion Lines. </li>
-                            <li>IKC registered.</li>
-                            <li>Health Tested. </li>
-                            <li>Show Quality.</li>
-                            <li>All our poodles have beautiful pigmentation and similar size.</li>
-                        </ul>
-                        <ul>  
-                            <li>Excellent Family dogs and make wonderful Therapy dogs.</li>
-                            <li>Poodles are eager, athletic, and wickedly smart dogs of remarkable versatility</li>
-                            <li>Swimming is great exercise for them, and most poodles love to get in the water.</li>
-                            <li>They are highly intelligent and will be well socialized with children and other dogs.</li>                            
-                            <li>All our puppies have been wormed, microchipped, vaccinated and fully vet checked.</li>
-                        </ul>
-                        <h3>What else you have to know about poodles?</h3>
-                        <ul>
-                            <li>While other dogs have two layers of fur that grow to a certain length and then shed, poodles have a light undercoat with long strands of extremely curly hair on top.</li>
-                            <li>Like ours, their hair can tangle and form mats easily. This is why it's so important to bath, groom, and brush your poodle regularly.</li>
-                        </ul>
-                    </div> 
+                    <section class="form_section">
+                        <form method="POST" action="https://formdump.codeinstitute.net/" class="puppy_order_form">
+                           <h2>Please fill in the order form for puppy: </h2>
+                           
+                           <label for="first_name">Your First Name</label>
+                           <input type="text" id="first_name" name="first_name" class="text-input" placeholder=" Enter your name" required>
+                           
+                           <label for="last_name">Your Last Name</label>
+                           <input type="text" id="last_name" name="last_name" class="text-input" placeholder=" Enter your surname" required>
+                           
+                           <label for="email">Email Address</label>
+                           <input type="email" id="email" name="email_address" class="text-input" placeholder=" Enter your email" required>
+                           
+                           <label for="request">Your message</label><br>
+                           <textarea id="request" name="request_message" class="textarea_message" rows="7" cols="67" placeholder="Please write your message here">                        
+                            </textarea> <br>                                                   
+                        
+                           <input type="submit" class="request-button" value="Send request">
+                        
+                       
+                       </form>
+                    </section>
                 </div>
             </div>
             <hr>

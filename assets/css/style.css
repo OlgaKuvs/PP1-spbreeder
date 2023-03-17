@@ -85,7 +85,7 @@ hr {
 .menu li {
     list-style: none;
     margin-right: 30px;
-    border: 3px solid #e7d9c7;
+    border: 3px ridge #e7d9c7;
     border-radius: 5px;
     padding: 10px;
     float: left;
@@ -148,7 +148,7 @@ figure {
 
 .text_main {
     width: 100%;
-    }
+}
 
 .section_header {
     text-align: center;
@@ -200,6 +200,48 @@ figcaption {
     color: #2b1800;
     margin-top: 10px;
 }
+
+/* Form */
+
+#contacts_image {
+    margin: 30px 0 0 30px;
+    float: left;
+}
+
+.form_section {
+    height: 900px;
+   
+}
+
+.puppy_order_form {
+    max-width: 700px;
+    padding: 30px;
+    float: right;
+    border: 3px solid blue;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 3px ridge #e9d4ba;
+    border-radius: 3px;
+}
+
+.text-input:hover {
+    border-color: #db430c; 
+}
+
+
+.textarea_message {
+    border: 3px ridge #e9d4ba;
+    border-radius: 3px;
+    color: #2b1800;
+}
+
+
+
+
 
 /* footer */
 
