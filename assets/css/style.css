@@ -68,6 +68,7 @@ hr {
     letter-spacing: 2px; 
     margin: 0;  
     font-size: 80%;
+    white-space: nowrap;
 }
 
 
@@ -435,6 +436,8 @@ header {
     justify-content: space-around;
     flex-direction: column;
     align-self: center; 
+    margin-top: 0;
+    padding-top: 5px;
 }
 
 
@@ -487,6 +490,9 @@ footer {
     font-size: 100%;   
 }
 
+hr {
+    border: none;
+}
 
 }
 
