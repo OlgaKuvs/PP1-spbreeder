@@ -278,28 +278,66 @@ footer {
     background-color: #f7f4f4;
     margin-top: 20px;  
     margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*
+#footer_info, #footer_icons {
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+*/
+
+#footer_info, #footer_icons {
+    display: inline-block;
+    margin-left: 30px;    
 }
 
 
-#footer_info {
-    text-align: center;   
-    margin: 20px;   
-    padding-top: 20px;   
+#footer_info ul li, #footer_icons ul li {
+    list-style: none;
+    font-weight: 500;   
+    display: inline; 
+    line-height: 200%;
 }
 
-#footer_info li {
-    display: inline;
-    text-decoration: none;
-    margin: 50px 50px;    
-    font-weight: 500;
-    font-size: 90%;
+#footer_info ul li {
+    padding: 0 0 10px 30px;
 }
 
-.icon_message {
+.icon_message {    
     font-size: 150%;
     color:#db430c;
-    margin-left: 20px; 
+    padding-right: 50px;
+    line-height: 150%;  
 }
+
+
+
+/*
+#footer_info, #footer_icons {
+    text-align: center;   
+}
+
+#footer_info ul li   {
+    display: grid;     
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#footer_icons ul li {
+    font-size: 90%;
+    display: inline;
+    margin: 20px;
+}
+
+*/
+
+
 
 
 /* media queries */
@@ -412,17 +450,14 @@ header {
     width: 400px ;
 }
 
-#footer_info {  
-    flex-wrap: wrap; 
-} 
-
-#footer_info li {
-    margin: 10px;    
-} 
+.icon_message {
+    font-size: 120%;
+    line-height: 200%;    
+}
 
 }
 
-/* For medium screens sizes from 800px wide*/
+/* For small screens sizes from 800px wide*/
 
 @media screen and (max-width: 800px) {
 
@@ -448,7 +483,6 @@ header {
     flex-wrap: wrap; 
     font-size: 90%;
 }
-
 
 .figure{
     background: url('../images/about_us_image_small.jpg') no-repeat  center center;
@@ -479,15 +513,45 @@ header {
 }
 
 footer {
-    min-height: 100px;      
+   min-height: 110px;
 }
 
-#footer_info li {
-    margin: 5px;    
+/*
+#footer_media {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#footer_info {
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-self: center;   
 } 
 
+#footer_icons {
+    display: flex;
+   flex-direction: row;
+   margin: 15px; 
+}
+*/
+
+#footer_info {
+    margin: 5px; 
+} 
+
+#footer_info ul li { 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
 .icon_message {
-    font-size: 100%;   
+    font-size: 100%;
+    text-decoration: none;  
 }
 
 hr {
