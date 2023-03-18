@@ -461,6 +461,10 @@ footer {
     min-height: 100px;    
 }
 
+#footer_info li {
+    margin: 5px;    
+}
+
 }
 
 /* social media pulse animation */
