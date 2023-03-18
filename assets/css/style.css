@@ -83,7 +83,6 @@ hr {
 .menu {
     letter-spacing: 2px;
     text-transform: uppercase;  
-    
 }
 
 .menu_nav {
@@ -378,10 +377,6 @@ header {
 
 @media screen and (max-width: 950px) {
 
-header {
-    height: 250px;              
-}
-
 .small_screen {
     display: flex;
     justify-content: space-around;
@@ -420,7 +415,42 @@ header {
 #footer_info {    
     align-self: center;
 } 
+}
 
+/* For medium screens sizes from 800px wide*/
+
+@media screen and (max-width: 800px) {
+
+header {
+    min-height: 400px;  
+}
+
+.menu_nav {
+    display: flex;
+    justify-content: start;
+}
+
+.why_poodles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+.why_poodles_sections {
+        width: 100%;
+}
+
+.puppy_order_form {
+    width: 300px;    
+} 
+
+.textarea_message {
+    width: 300px ;
+}
+
+footer {
+    min-height: 100px;    
+}
 
 }
 
