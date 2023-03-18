@@ -73,7 +73,7 @@ hr {
 
 #logo_image {
     margin-left: 10px; 
-    background: url('../images/poodle-silhouette.png')  center;
+    background: url('../images/poodle-silhouette.png') center;
     height: 50px;
     width: 50px;
 }
@@ -134,7 +134,10 @@ hr {
    width: 100%;
 }
 
-figure {
+.figure {
+    background: url('../images/about_us_image.jpg') no-repeat  center center;
+    height: 467px;
+    width: 467px;
     float: left;
 }
 
@@ -428,6 +431,12 @@ header {
 .menu_nav {
     display: flex;
     justify-content: start;
+}
+
+.figure{
+    background: url('../images/about_us_image_small.jpg') no-repeat  center center;
+    width: 250px;
+    height: 250px;    
 }
 
 .why_poodles {
