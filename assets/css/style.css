@@ -430,6 +430,10 @@ header {
 
 @media screen and (max-width: 800px) {
 
+#main-container {
+    width: 80%;  
+}
+
 header {
     min-height: 400px; 
     display: flex;
@@ -442,9 +446,9 @@ header {
 .menu {
     display: flex;
     justify-content: space-around;
-    align-self: center;
     letter-spacing: normal;
-    font-size: 80%;
+    flex-wrap: wrap; 
+    font-size: 90%;
 }
 
 
