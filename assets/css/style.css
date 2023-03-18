@@ -44,6 +44,10 @@ h1, h2, h3, h4 {
     color: #db430c;    
 }
 
+h5 {
+    font-size: 120%;
+}
+
 hr {
     border-bottom: 2px solid #e7d9c7;
     width: 100%;
@@ -157,12 +161,6 @@ figure {
 }
 
 
-/* .div_header {
-    text-align: center;
-    margin: 30px 0 20px 0;
-    
-} */
-
 /* why poodles */
 
 .why_poodles {   
@@ -184,11 +182,7 @@ figure {
     text-align: center;
 }
 
-/*i {
-    border: 3px solid #e7d9c7;
-    border-radius: 50%;    
-    padding: 10px;
-} */
+
 
 /* our poodles gallery */   
 
@@ -211,13 +205,14 @@ figcaption {
 /* Form */
 
 #contacts_image {
-    margin: 30px 0 0 30px;
+    margin: 30px 50px 10px 50px;
     width: 467px;
-    float: left;
+    float: left;    
 }
 
 .form_section {
-    height: 800px;   
+    min-height: 600px;  
+    margin-bottom: 20px;
 }
 
 .puppy_order_form {
@@ -303,12 +298,26 @@ footer {
 
 /* media queries */
 
-/* For very large screens from 1400px */
+/* For very large screens from 1550px */
 
 @media screen and (max-width: 1550px) {
-    .menu_nav {
-        margin-top: 20px;
-    }
+
+.menu_nav {
+    margin-top: 20px;
+}
+
+.form_section, #contacts_image_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;  
+    border: 3px ridge red;  
+}
+
+#contacts_image {
+    margin: 0;     
+}
+
 }
 
 
@@ -322,11 +331,6 @@ footer {
 
 .menu_nav {
     margin-top: 20px;
-}
-
-#contacts_image_container, .about_us_content {
-    display: flex;
-    justify-content: center;
 }
 
 header {
@@ -347,6 +351,13 @@ header {
     border-radius: 50%;  
 }
 
+.form_section, #contacts_image_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;    
+}
+
  #footer_info {
     display: flex;
     justify-content: center; 
@@ -360,3 +371,35 @@ header {
 
 }
 
+/* social media pulse animation */
+
+.pulse {
+    animation: pulse 3s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
