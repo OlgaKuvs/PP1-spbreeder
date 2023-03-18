@@ -398,6 +398,7 @@ header {
 
 #contacts_image {
     max-width: 300px; 
+    margin-top: 20px;
 }
 
 .form_container {
@@ -415,9 +416,14 @@ header {
     width: 400px ;
 }
 
-#footer_info {    
-    align-self: center;
+#footer_info {  
+    flex-wrap: wrap; 
 } 
+
+#footer_info li {
+    margin: 10px;    
+} 
+
 }
 
 /* For medium screens sizes from 800px wide*/
@@ -425,13 +431,22 @@ header {
 @media screen and (max-width: 800px) {
 
 header {
-    min-height: 400px;  
+    min-height: 400px; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-self: center; 
 }
 
-.menu_nav {
+
+.menu {
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
+    align-self: center;
+    letter-spacing: normal;
+    font-size: 80%;
 }
+
 
 .figure{
     background: url('../images/about_us_image_small.jpg') no-repeat  center center;
@@ -449,6 +464,10 @@ header {
         width: 100%;
 }
 
+.section_header {
+    margin: 0;
+}
+
 .puppy_order_form {
     width: 300px;    
 } 
@@ -458,12 +477,11 @@ header {
 }
 
 footer {
-    min-height: 100px;    
+    min-height: 90px;      
 }
 
-#footer_info li {
-    margin: 5px;    
-}
+
+
 
 }
 
