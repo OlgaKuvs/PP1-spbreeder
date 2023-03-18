@@ -128,7 +128,7 @@ hr {
         border-radius: 50%;  
 }
 
-/* main content */
+/* about_us content */
 
 #content {
    width: 100%;
@@ -150,11 +150,6 @@ hr {
 .about_us_content ul {
     list-style-type: none;
     margin-bottom: 20px;
-    width: 100%;
-}
-
-.text_main {
-    width: 100%;
 }
 
 .section_header {
@@ -473,18 +468,24 @@ header {
 }
 
 .puppy_order_form {
-    width: 300px;    
+    max-width: 250px;    
 } 
 
 .textarea_message {
-    width: 300px ;
+    max-width: 250px ;
 }
 
 footer {
-    min-height: 90px;      
+    min-height: 100px;      
 }
 
+#footer_info li {
+    margin: 5px;    
+} 
 
+.icon_message {
+    font-size: 100%;   
+}
 
 
 }
