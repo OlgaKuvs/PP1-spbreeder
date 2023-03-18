@@ -157,7 +157,7 @@ figure {
 
 .section_header {
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0 20px 0;
 }
 
 
@@ -166,8 +166,7 @@ figure {
 .why_poodles {   
     display: flex;
     justify-content: space-around;
-    margin: 50px 0 50px 0;
-    }
+}
 
 .why_poodles_sections {
     box-sizing: border-box;
@@ -191,7 +190,7 @@ figure {
     height: 400px;
     border: 3px ridge #e9d4ba;
     border-radius: 10px;
-    object-fit: cover;       
+    object-fit: cover; 
 }
 
 figcaption {
@@ -199,15 +198,27 @@ figcaption {
     font-weight: 800;
     font-size: 120%;
     color: #2b1800;
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
 }
 
 /* Form */
 
+
 #contacts_image {
     margin: 30px 50px 10px 50px;
-    width: 467px;
-    float: left;    
+    width: 467px;      
+}
+
+.puppy_order_form {
+    width: 600px;
+    padding: 30px;
+    border: 3px solid #e7d9c7;;
+} 
+
+
+.form_container {
+    display: flex;
+    justify-content: space-around;    
 }
 
 .form_section {
@@ -215,12 +226,7 @@ figcaption {
     margin-bottom: 20px;
 }
 
-.puppy_order_form {
-    max-width: 600px;
-    padding: 30px;
-    float: right;
-    border: 3px solid #e7d9c7;;
-} 
+
 
 .text-input {
     width: 100%;
@@ -238,6 +244,8 @@ figcaption {
 
 
 .textarea_message {
+    width: 600px;
+    height: 100px;
     border: 3px ridge #e9d4ba;
     border-radius: 3px;
     color: #2b1800;
@@ -298,20 +306,19 @@ footer {
 
 /* media queries */
 
-/* For very large screens from 1550px */
+/* For very large screens sizes from 1580px wide */
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1580px) {
 
 .menu_nav {
     margin-top: 20px;
 }
 
-.form_section, #contacts_image_container {
+.form_container, .form_section {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;  
-    border: 3px ridge red;  
 }
 
 #contacts_image {
@@ -321,16 +328,12 @@ footer {
 }
 
 
-/* For large screens from 1400px */
+/* For large screens sizes from 1400px  wide*/
 
 @media screen and (max-width: 1400px) {
 
 #main-container {
     width: 90%;  
-}
-
-.menu_nav {
-    margin-top: 20px;
 }
 
 header {
@@ -351,7 +354,7 @@ header {
     border-radius: 50%;  
 }
 
-.form_section, #contacts_image_container {
+.form_container, .form_section {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -368,6 +371,56 @@ header {
 #footer_info li {
     margin: 20px;    
 }
+
+}
+
+/* For medium screens sizes from 950px wide*/
+
+@media screen and (max-width: 950px) {
+
+header {
+    height: 250px;              
+}
+
+.small_screen {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.our_poodles_gallery {
+    width: 300px;
+    height: 300px;    
+}
+
+#contacts_image img {
+    max-width: 300px; 
+}
+
+#contacts_image {
+    max-width: 300px; 
+}
+
+.form_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-self: center;  
+}
+
+.puppy_order_form {
+    width: 400px;    
+} 
+
+.textarea_message {
+    width: 400px ;
+}
+
+#footer_info {    
+    align-self: center;
+} 
+
 
 }
 
