@@ -135,8 +135,8 @@ hr {
    width: 100%;
 }
 
-.figure {
-    background: url('../images/about_us_image.jpg') no-repeat  center center;
+.about_us_image {
+    background: url('../images/about_us_image.jpg') no-repeat center center;
     height: 467px;
     width: 467px;
     float: left;
@@ -213,7 +213,6 @@ figcaption {
     border: 3px solid #e7d9c7;;
 } 
 
-
 .form_container {
     display: flex;
     justify-content: space-around;    
@@ -223,8 +222,6 @@ figcaption {
     min-height: 600px;  
     margin-bottom: 20px;
 }
-
-
 
 .text-input {
     width: 100%;
@@ -346,9 +343,11 @@ footer {
 
 @media screen and (max-width: 1580px) {
 
+
 .menu_nav {
     margin-top: 20px;
 }
+
 
 .form_container, .form_section {
     display: flex;
@@ -397,7 +396,7 @@ header {
     align-items: center;    
 }
 
- #footer_info {
+#footer_info {
     display: flex;
     justify-content: center; 
     margin: 0;   
@@ -452,7 +451,7 @@ header {
 
 .icon_message {
     font-size: 120%;
-    line-height: 200%;    
+    line-height: 200%;  
 }
 
 }
@@ -475,19 +474,39 @@ header {
     padding-top: 5px;
 }
 
+.section_header {
+    margin: 0;
+}
+
+h2.section_header  {
+    margin-top: 20px;
+}
 
 .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
+    flex-wrap: wrap;
     letter-spacing: normal;
-    flex-wrap: wrap; 
     font-size: 90%;
 }
 
-.figure{
-    background: url('../images/about_us_image_small.jpg') no-repeat  center center;
+
+.about_us_image {
+    background: url('../images/about_us_image_small.jpg') no-repeat center center;
     width: 250px;
-    height: 250px;    
+    height: 250px; 
+}
+
+#contacts_image_container {
+    text-align: center;
+}
+
+#contacts_image img {
+    max-width: 250px;
+    max-height: 250px; 
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 .why_poodles {
@@ -500,42 +519,30 @@ header {
         width: 100%;
 }
 
-.section_header {
-    margin: 0;
+.our_poodles_gallery {
+    width: 250px;
+    height: 250px;    
 }
 
+
 .puppy_order_form {
-    max-width: 250px;    
+    max-width: 220px;    
 } 
 
 .textarea_message {
-    max-width: 250px ;
+    max-width: 220px ;
 }
 
 footer {
-   min-height: 110px;
+   min-height: 120px;
 }
-
-/*
-#footer_media {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-#footer_info {
-    margin: 5px; 
-    display: flex;
-    flex-direction: column;
-    align-self: center;   
-} 
 
 #footer_icons {
     display: flex;
-   flex-direction: row;
-   margin: 15px; 
+    flex-direction: row;
+    justify-content: center; 
 }
-*/
+
 
 #footer_info {
     margin: 5px; 
@@ -559,6 +566,7 @@ hr {
 }
 
 }
+
 
 /* social media pulse animation */
 
