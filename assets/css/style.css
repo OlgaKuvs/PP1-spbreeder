@@ -26,6 +26,7 @@ body {
     box-shadow: 10px 10px 5px #e7d9c7;
     margin-top: 10px;
     margin-bottom: 10px;
+   
 }
 
 /* headings and logo */
@@ -35,17 +36,29 @@ header {
     justify-content: flex-start;
     height: 150px;
     margin-top: 20px;  
-    padding-top: 50px;          
+    padding-top: 50px;  
+    background: url(../images/pexels-juan-pablo-serrano-arenas-1242348.jpg) no-repeat center center;        
 }
 
 h1, h2, h3, h4 {
     font-family: RobotoCondensed, sans-serif;
     text-transform: uppercase;
-    color: #db430c;    
+    color: #db430c; 
 }
 
+/*
+h1, h2, h4 {
+color: #db430c;  
+}
+
+h3 {
+    color: #db770c;
+}
+
+*/
+
 h5 {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 hr {
@@ -93,11 +106,12 @@ hr {
     border-radius: 5px;
     padding: 10px;
     float: left;
+    background-color: #f7f4f4; 
 }
 
 #active {
     color:#db430c;
-    text-decoration: underline overline #e6dfd6;
+    text-decoration: underline #db430c;
     
 }
 
@@ -114,7 +128,7 @@ hr {
 
 .menu_nav:hover {
     color:#db430c;
-    background-color: #f7f4f4; 
+    background-color: #e6dfd6;
     cursor: pointer; 
 }
 
@@ -232,8 +246,7 @@ figcaption {
 }
 
 .text-input:hover, .textarea_message:hover {
-    border: 3px ridge #db430c; 
-    background-color: #f7f4f4;
+    background-color: #e6dfd6;
     cursor: pointer; 
 }
 
@@ -249,20 +262,19 @@ figcaption {
 
 .request-button {
     margin-top: 20px;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 15px 30px;
     text-align: center;
     font-size: 100%;
-    background-color: #db430c;  
-    border: 3px ridge #db430c;  
-    color: #fff;
+    background-color: #e6dfd6; 
+    border: 3px ridge #e7d9c7; 
+    color: #2b1800;
     display: block;
 }
 
 .request-button:hover {
-    background-color:  #e9d4ba;
-    color: #2b1800;
-    border: 3px ridge #db430c;  
+    color:#db430c;
+    background-color: #e7d9c7; 
     cursor: pointer; 
 }
 
@@ -277,6 +289,7 @@ footer {
     margin-bottom: 10px;
     text-align: center;
     padding-top: 20px;
+    background: url(../images/pexels-juan-pablo-serrano-arenas-1242348.jpg) no-repeat center center; 
 }
 
 /*
@@ -534,7 +547,7 @@ h2.section_header  {
 }
 
 footer {
-   min-height: 120px;
+   min-height: 120px;     
 }
 
 #footer_icons {
