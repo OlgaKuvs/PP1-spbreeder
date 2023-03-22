@@ -203,6 +203,7 @@ hr {
     border: 3px ridge #e9d4ba;
     border-radius: 10px;
     object-fit: cover; 
+    margin-top: 20px;  
 }
 
 figcaption {
@@ -258,6 +259,7 @@ figcaption {
     border-radius: 3px;
     color: #2b1800;
     resize: none;
+    font-family: inherit;
 }
 
 .request-button {
@@ -327,29 +329,6 @@ footer {
 
 
 
-/*
-#footer_info, #footer_icons {
-    text-align: center;   
-}
-
-#footer_info ul li   {
-    display: grid;     
-    text-decoration: none;
-    font-weight: 500;
-    margin: 10px;
-}
-
-#footer_icons ul li {
-    font-size: 90%;
-    display: inline;
-    margin: 20px;
-}
-
-*/
-
-
-
-
 /* media queries */
 
 /* For very large screens sizes from 1580px wide */
@@ -358,7 +337,13 @@ footer {
 
 
 .menu_nav {
-    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.menu {
+    letter-spacing: normal;
+    font-size: 90%;
+    text-transform: uppercase;  
 }
 
 
@@ -379,6 +364,10 @@ footer {
 /* For large screens sizes from 1400px  wide*/
 
 @media screen and (max-width: 1400px) {
+
+.menu_nav {
+    margin-right: 30px;
+}
 
 #main-container {
     width: 90%;  
@@ -473,6 +462,10 @@ header {
 
 @media screen and (max-width: 800px) {
 
+.menu_nav {
+    margin-top: 20px;
+}
+
 #main-container {
     width: 80%;  
 }
@@ -534,7 +527,7 @@ h2.section_header  {
 
 .our_poodles_gallery {
     width: 250px;
-    height: 250px;    
+    height: 250px;  
 }
 
 
