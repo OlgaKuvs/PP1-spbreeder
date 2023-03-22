@@ -46,17 +46,6 @@ h1, h2, h3, h4 {
     color: #db430c; 
 }
 
-/*
-h1, h2, h4 {
-color: #db430c;  
-}
-
-h3 {
-    color: #db770c;
-}
-
-*/
-
 h5 {
     font-size: 110%;
 }
@@ -194,7 +183,6 @@ hr {
 }
 
 
-
 /* our poodles gallery */   
 
 .our_poodles_gallery {
@@ -294,14 +282,7 @@ footer {
     background: url(../images/pexels-juan-pablo-serrano-arenas-1242348.jpg) no-repeat center center; 
 }
 
-/*
-#footer_info, #footer_icons {
-    display: flex;   
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-*/
+
 
 #footer_info, #footer_icons {
     display: inline-block;
