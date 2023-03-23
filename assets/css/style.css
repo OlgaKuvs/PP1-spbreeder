@@ -190,10 +190,45 @@ hr {
     height: 400px;
     border: 3px ridge #e9d4ba;
     border-radius: 10px;
-    object-fit: cover; 
     margin-top: 20px;  
 }
 
+.gallery_image_container {
+    position: relative;
+}
+
+.gallery_image_container:hover .overlay {
+    opacity: 1;
+  }
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+    transition: 1s ease;    
+    background: url(../images/pexels-juan-pablo-serrano-arenas-1242348.jpg) no-repeat center center;  
+    border: 3px ridge #e9d4ba;
+    border-radius: 10px;
+  }
+
+  .poodle_description {
+    color: #2b1800;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+ 
 figcaption {
     text-align: center;
     font-weight: 800;
@@ -408,6 +443,16 @@ header {
     height: 300px;    
 }
 
+.overlay {
+    width: 300px;
+    height: 300px; 
+}
+
+.poodle_description {
+    font-size: 15px;
+}
+
+
 #contacts_image img {
     max-width: 300px; 
 }
@@ -511,6 +556,10 @@ h2.section_header  {
     height: 250px;  
 }
 
+.overlay {
+    width: 250px;
+    height: 250px;  
+}
 
 .puppy_order_form {
     max-width: 220px;    
