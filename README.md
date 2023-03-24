@@ -3,7 +3,6 @@
 ![screenshot different screens](documentation/about_us_screenshot.png)
 
 ## Table of content
-<hr> 
 
 - <a href="#introduction">Introduction</a>
 - <a href="#project_goals">Project Goals</a>
@@ -38,12 +37,11 @@
 - Acknowledgements
 
 ## <div id="introduction">Introduction</div>
-<hr> 
 
 This is a website for S.P.Breeder, Dublin based business which specializes in Standard Poodles breeding. S.P.Breeder represents show quality poodles from European Champion lines, IKC registered and health tested. The purpose of this website is to establish an online presence for the breeding business as the source of information for customers and for potencial poodle owners. The site will be useful for people who is looking for good pedigree poodle puppy.
 
 ## <div id="project_goals">Project Goals</div>
-<hr> 
+ 
 
 ### <div id="user_goals">User Goals</div>
 
@@ -60,7 +58,7 @@ This is a website for S.P.Breeder, Dublin based business which specializes in St
 - Provide information about us as responsible breeders
 
 ## <div id="design">Design of the website</div>
-<hr> 
+
 
 ### <div id="wireframes">Wireframes</div>
 
