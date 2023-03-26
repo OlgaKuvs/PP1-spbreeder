@@ -487,7 +487,7 @@ header {
 @media screen and (max-width: 800px) {
 
 .menu_nav {
-    margin: 20px 0 10px 10px;
+    margin: 20px 10px 10px 10px;
 }
 
 header {
