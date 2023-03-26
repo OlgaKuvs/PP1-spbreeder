@@ -2,7 +2,7 @@
 
 ![screenshot different screens](documentation/about_us_screenshot.jpg)
 
-## Table of content
+## Table of content:
 
 - <a href="#introduction">Introduction</a>
 - <a href="#project_goals">Project Goals</a>
