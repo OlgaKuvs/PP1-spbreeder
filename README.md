@@ -40,7 +40,7 @@
 
 ## <div id="introduction">Introduction</div>
 
-This is a website for S.P.Breeder, Dublin based business which specializes in Standard Poodles breeding. S.P.Breeder represents show quality poodles from European Champion lines, IKC registered and health tested. The purpose of this website is to establish an online presence for the breeding business as the source of information for customers and for potencial poodle owners. The site will be useful for people who is looking for good pedigree poodle puppy.
+This is a website for S.P.Breeder, a Dublin based business which specializes in Standard Poodles breeding. S.P.Breeder represents show quality poodles from European Champion lines which are IKC registered and health tested. The purpose of this website is to establish an online presence for the breeding business. It is a source of information for customers and for potential poodle owners. The site will be useful for people who are looking for a good pedigree poodle puppy.
 
 ## <div id="project_goals">Project Goals</div>
  
@@ -57,7 +57,7 @@ This is a website for S.P.Breeder, Dublin based business which specializes in St
 - Promote the business.
 - Provide clear and easy to read information about the business to customers.
 - Encourage customers to know more about the poodles and to buy a puppy if they are interested in this breed.
-- Provide information about us as responsible breeders
+- Provide information about us as responsible breeders.
 
 ## <div id="design">Design of the website</div>
 
@@ -160,9 +160,9 @@ The colour theme is based around the colours `#f0650d` and `#db430c` which harmo
 - [Font Awesome:](https://fontawesome.com/icons) used to add icons for aesthetic and UX purposes.
 - [Microsoft Paint 3D:](https://apps.microsoft.com/store/detail/paint-3d/9NBLGGH5FV99) was used for resizing images and editing photos for the website.
 - [Am I Responsive](https://ui.dev/amiresponsive) used to generate screenshot of different screens.
-- [W3Schools](https://www.w3schools.com/) used for general search for HTML and CSS synthax queries.
+- [W3Schools](https://www.w3schools.com/) used for general search for HTML and CSS syntax queries.
 - [CSS-Tricks](https://css-tricks.com/) used for help with flex box and alignment.
-- [Git:](https://git-scm.com/) used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Git:](https://git-scm.com/) used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub](https://github.com/) used to store the project's code after being pushed from Git.
 - [Gitpod](https://www.gitpod.io/)
 - [Pexels](https://www.pexels.com/)
@@ -191,11 +191,11 @@ The website was tested on the following browsers:
 
 - Google Chrome
 - Mozilla Firefox
-- Microsoft Egde
+- Microsoft Edge
 
 ### <div id="responsiveness">Responsiveness</div>
 
-The website was tested on numerous sized screens including iPhones SE, XR, 12 Pro, Samsungs Galaxy S8, S20, iPads Air, Mini, 15" laptop and was found to respond as expected to all sizes. Chrome DevTools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
+The website was tested on numerous sized screens including iPhones SE, XR, 12 Pro, Samsungs Galaxy S8, S20, Redmi Note 9, iPads Air, Mini, 15" laptop and was found to respond as expected to all sizes. Chrome DevTools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
 
 ### <div id="manual_testing">Manual Testing</div>
 The following links were all manually tested and passed:
@@ -254,6 +254,6 @@ Images not referenced below are owned by the author.
 ## <div id="acknowledgements">Acknowledgements</div>
 
 I would like to take the opportunity to thank:
-- My mentor Rahul Lakhanpal for his feedback, guidance, support, patience and kindness.
+- My mentor Rahul Lakhanpal for his feedback, guidance and support.
 - Our Cohort Facilitator Alan Bushell for continuous motivation, positive attitude, excellent and useful presentations.
-- My husband for his patience and for freeing me from all household chores to work on my project.
+- My husband Sergej for his patience and for freeing me from all household chores to work on my project.
