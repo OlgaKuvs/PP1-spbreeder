@@ -490,10 +490,6 @@ header {
     margin: 20px 0 10px 10px;
 }
 
-#main-container {
-    width: 80%;  
-}
-
 header {
     min-height: 450px; 
     display: flex;
