@@ -80,7 +80,9 @@ The fonts chosen were Roboto for the body, RobotoCondensed for the headings and 
 
 ### <div id="colours">Colours</div>
 
-The colour theme is based around the colours `#f0650d` and `#db430c` which harmonizes with the coat color of poodles. These colours are used for the headings and logo. Brown `#2b1800` was chosen for the font colour as it is less harsh to the users' eyes than black. 
+The colour theme is based around the orange colour `#db430c` which harmonizes with the coat colour of poodles. These colours are used for the headings and logo. To create the colour pallete I used [Adobe Color](https://color.adobe.com/create/color-wheel). Brown `#2b1800` was chosen for the font colour as it is less harsh to the users' eyes than black. 
+
+![Colour pallete](documentation/color_pallete.png)
 
 ### <div id="images">Images</div>
 
@@ -97,7 +99,6 @@ The colour theme is based around the colours `#f0650d` and `#db430c` which harmo
 - All texts are written by the author.
 
 ## <div id="features">Features</div>
-<hr> 
 
 ### <div id="existing_features">Existing Features</div>
 
@@ -211,6 +212,7 @@ The following links were all manually tested and passed:
     - The footer is visible on all pages so that social media links, copyright information and address are always available to the user.
     - The link from the envelope icon directed to the Contact us form.
     - The footer is responsive: the social media icons moves under the address block in the center of the footer as the screen size decreases.
+- The form was submitted successfully to Code Institute form dump.
 
 ### <div id="bugs">Known Bugs</div>
 
@@ -224,7 +226,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. Log in to [GitHub](https://github.com/) 
 2. Navigate to [OlgaKuvs/Project_1_S.P.Breeder](https://github.com/OlgaKuvs/Project_1_S.P.Breeder) in the list of repositories
-3. In the GitHub repository, navigate to the [Settings](https://github.com/OlgaKuvs/Project_1_S.P.Breeder/settings) tab
+3. In the GitHub repository, go to the [Settings](https://github.com/OlgaKuvs/Project_1_S.P.Breeder/settings) tab
 4. From the left side menu navigate to Pages, then select the Main Branch
 5. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 
@@ -236,7 +238,7 @@ The live link can be found here: [S.B.Breeder](https://olgakuvs.github.io/Projec
 
 - The icons for Why poodles page were taken from [Font Awesome](https://fontawesome.com/icons)
 - Code for Fade in Overlay CSS effect for Our dogs photo gallery was taken from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade)
-- 
+ 
 
 ### <div id="media">Media</div>
 

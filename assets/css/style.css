@@ -33,9 +33,9 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    height: 200px;     
+    height: 200px;   
     background: url(../images/pexels-juan-pablo-serrano-arenas-1242348.jpg) no-repeat center center;        
 }
 
@@ -69,13 +69,15 @@ hr {
     letter-spacing: 2px; 
     margin: 0;  
     font-size: 80%;
+    vertical-align: top;
     white-space: nowrap;
 }
 
 
 #logo_image {
-    margin-left: 10px; 
+    margin: 0 20px 0 10px; 
     background: url('../images/poodle-silhouette.png') center;
+    float: left;
     height: 50px;
     width: 50px;
 }
@@ -93,7 +95,7 @@ hr {
     border: 3px ridge #e7d9c7;
     border-radius: 5px;
     padding: 10px;
-    float: left;
+    display: inline;
     background-color: #f7f4f4; 
 }
 
@@ -104,7 +106,8 @@ hr {
 }
 
 .menu, .logo_breeder, #logo_image  {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;   
     vertical-align: top;
 } 
 
@@ -132,8 +135,8 @@ hr {
 /* about_us content */
 
 #content {
-   width: 100%;
-}
+    width: 100%;
+ }
 
 .about_us_image {
     background: url('../images/about_us_image.jpg') no-repeat center center;
@@ -394,7 +397,7 @@ header {
     align-items: center;
     margin-top: 20px;  
     padding-top: 20px;   
-    min-height: 300px;       
+    min-height: 350px;       
 }
 
 #header_image {  
@@ -523,6 +526,7 @@ h2.section_header  {
     height: 250px; 
 }
 
+
 #contacts_image_container {
     text-align: center;
 }
@@ -596,6 +600,33 @@ hr {
 }
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .menu {
+        font-size: 70%;
+    }
+
+    .menu_nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .about_us_image {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #logo_text  {
+        font-size: 70%;
+    }
+
+       
+}
+
 
 
 /* social media pulse animation */
