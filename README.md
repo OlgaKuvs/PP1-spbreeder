@@ -230,7 +230,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 4. From the left side menu navigate to Pages, then select the Main Branch
 5. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 
-The live link can be found here: [S.B.Breeder](https://olgakuvs.github.io/Project_1_S.P.Breeder/)
+The live link can be found here: [S.B.Breeder](https://olgakuvs.github.io/PP1-spbreeder/)
 
 ## <div id="credits">Credits</div>
 
